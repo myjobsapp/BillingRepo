@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>Vendor_List</title>
+{% endblock %}
+
+{% block content %}
+    <table class="table table-striped" style="width:500px">
+        <tr>
+            <th>ID</th>
+            <th>Vendor Name</th>
+        </tr>
+        {% for v in vendor %}
+        <tr>
+            <td>{{v.id}}</td>
+            <td><a href="/ia/detail/{{v.id}}">{{v.vendor_name}}</a></td>
+            <td>
+                <a href="/ia/update/{{v.id}}" class="btn btn-primary">Update</a>
+            </td>
+            <td>
+                <a href="/ia/delete/{{v.id}}" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

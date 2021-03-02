@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+    <title>Delete Category</title>
+{% endblock %}
+
+{% block content %}
+    <h3>You Really want to delete this vendor record of {{vendor.vendor_name}}?????</h3><br>
+    <a href="{% url 'allvendor' %}">
+        <button class="btn btn-success">Cancel</button></a><br>
+
+    <form method="post">
+        {% csrf_token %}
+
+        <a href="{% url 'deletevendor' vendor.id %}">
+            <input type="submit"  value="Delete" class="btn btn-danger"></a>
+    </form>
+{% endblock %}

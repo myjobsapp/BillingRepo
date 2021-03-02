@@ -1,0 +1,983 @@
+[2020-09-11 13:54:47] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-11 14:36:26] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\Billing_Market\settings.py changed, reloading.
+[2020-09-11 14:36:27] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-11 14:36:33] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-11 14:37:55] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\Billing_Market\settings.py changed, reloading.
+[2020-09-11 14:37:56] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-11 14:38:03] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-11 14:38:06] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-11 14:38:06] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2135
+[2020-09-11 14:38:06] WARNING [django.request.log_response:224] Not Found: /favicon.ico
+[2020-09-11 14:38:06] WARNING [django.server.log_message:157] "GET /favicon.ico HTTP/1.1" 404 2186
+[2020-09-11 14:39:09] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\Billing_Market\urls.py changed, reloading.
+[2020-09-11 14:39:10] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-11 14:39:13] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-11 14:39:13] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2341
+[2020-09-11 14:39:21] WARNING [django.request.log_response:224] Not Found: /ua/reg
+[2020-09-11 14:39:21] WARNING [django.server.log_message:157] "GET /ua/reg HTTP/1.1" 404 3174
+[2020-09-11 14:39:53] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\Billing_Market\urls.py changed, reloading.
+[2020-09-11 14:39:55] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-11 14:40:09] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-11 14:43:34] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-11 14:43:36] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-11 14:43:36] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-11 14:43:48] INFO [django.server.log_message:157] "GET /ua/reg HTTP/1.1" 301 0
+[2020-09-11 14:43:48] ERROR [django.request.log_response:224] Internal Server Error: /ua/reg/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 202, in _get_response
+    response = response.render()
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: account/register.html
+[2020-09-11 14:43:48] ERROR [django.server.log_message:157] "GET /ua/reg/ HTTP/1.1" 500 82287
+[2020-09-11 14:53:08] ERROR [django.request.log_response:224] Internal Server Error: /ua/reg/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 202, in _get_response
+    response = response.render()
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: account/register.html
+[2020-09-11 14:53:08] ERROR [django.server.log_message:157] "GET /ua/reg/ HTTP/1.1" 500 82424
+[2020-09-11 14:53:09] ERROR [django.request.log_response:224] Internal Server Error: /ua/reg/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 202, in _get_response
+    response = response.render()
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: account/register.html
+[2020-09-11 14:53:09] ERROR [django.server.log_message:157] "GET /ua/reg/ HTTP/1.1" 500 82424
+[2020-09-11 14:53:15] ERROR [django.request.log_response:224] Internal Server Error: /ua/reg/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 202, in _get_response
+    response = response.render()
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: account/register.html
+[2020-09-11 14:53:15] ERROR [django.server.log_message:157] "GET /ua/reg/ HTTP/1.1" 500 82287
+[2020-09-11 14:53:24] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-11 14:53:29] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-11 14:53:29] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-11 14:53:29] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-11 14:53:29] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-11 14:53:38] ERROR [django.request.log_response:224] Internal Server Error: /ua/reg/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 202, in _get_response
+    response = response.render()
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: account/register.html
+[2020-09-11 14:53:38] ERROR [django.server.log_message:157] "GET /ua/reg/ HTTP/1.1" 500 82417
+[2020-09-11 14:55:00] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\user_App\views.py changed, reloading.
+[2020-09-11 14:55:01] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-11 14:55:08] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-11 14:55:09] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-11 14:55:09] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-11 14:55:18] INFO [django.server.log_message:157] "GET /ua/reg/ HTTP/1.1" 200 824
+[2020-09-11 14:55:31] INFO [django.server.log_message:157] "GET /ua/reg/ HTTP/1.1" 200 824
+[2020-09-11 14:55:34] INFO [django.server.log_message:157] "GET /ua/login HTTP/1.1" 301 0
+[2020-09-11 14:55:34] INFO [django.server.log_message:157] "GET /ua/login/ HTTP/1.1" 200 426
+[2020-09-17 08:53:46] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 08:53:55] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-17 08:53:55] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-17 08:53:55] WARNING [django.request.log_response:224] Not Found: /favicon.ico
+[2020-09-17 08:53:55] WARNING [django.server.log_message:157] "GET /favicon.ico HTTP/1.1" 404 2289
+[2020-09-17 08:54:09] INFO [django.server.log_message:157] "GET /ia/allcat HTTP/1.1" 301 0
+[2020-09-17 08:54:10] ERROR [django.request.log_response:224] Internal Server Error: /ia/allcat/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py", line 53, in allcategory
+    return render(request,template_name,context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\urls\resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'list' not found. 'list' is not a valid view function or pattern name.
+[2020-09-17 08:54:10] ERROR [django.server.log_message:157] "GET /ia/allcat/ HTTP/1.1" 500 147392
+[2020-09-17 08:56:06] WARNING [django.request.log_response:224] Not Found: /ea/login
+[2020-09-17 08:56:06] WARNING [django.server.log_message:157] "GET /ea/login HTTP/1.1" 404 2280
+[2020-09-17 08:56:06] WARNING [django.request.log_response:224] Not Found: /favicon.ico
+[2020-09-17 08:56:06] WARNING [django.server.log_message:157] "GET /favicon.ico HTTP/1.1" 404 2289
+[2020-09-17 08:56:18] INFO [django.server.log_message:157] "GET /ia/allcat HTTP/1.1" 301 0
+[2020-09-17 08:56:18] INFO [django.server.log_message:157] "GET /ia/allcat/ HTTP/1.1" 200 15504
+[2020-09-17 08:56:18] INFO [django.server.log_message:157] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[2020-09-17 08:56:18] INFO [django.server.log_message:157] "GET /static/css/style.css HTTP/1.1" 304 0
+[2020-09-17 08:56:18] INFO [django.server.log_message:157] "GET /static/js/move-top.js HTTP/1.1" 304 0
+[2020-09-17 08:56:18] INFO [django.server.log_message:157] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[2020-09-17 08:56:18] INFO [django.server.log_message:157] "GET /static/js/easing.js HTTP/1.1" 304 0
+[2020-09-17 08:56:18] INFO [django.server.log_message:157] "GET /static/js/jquery-1.11.1.min.js HTTP/1.1" 304 0
+[2020-09-17 08:56:18] INFO [django.server.log_message:157] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-09-17 08:56:18] INFO [django.server.log_message:157] "GET /static/js/skdslider.min.js HTTP/1.1" 304 0
+[2020-09-17 08:56:18] INFO [django.server.log_message:157] "GET /static/images/b1.jpg HTTP/1.1" 304 0
+[2020-09-17 08:56:18] INFO [django.server.log_message:157] "GET /static/images/b3.jpg HTTP/1.1" 304 0
+[2020-09-17 08:56:18] INFO [django.server.log_message:157] "GET /static/css/skdslider.css HTTP/1.1" 304 0
+[2020-09-17 08:56:18] INFO [django.server.log_message:157] "GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 0
+[2020-09-17 08:56:18] INFO [django.server.log_message:157] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2020-09-17 08:56:19] WARNING [django.request.log_response:224] Not Found: /ia/allcat/beverages.html
+[2020-09-17 08:56:19] WARNING [django.server.log_message:157] "GET /ia/allcat/beverages.html HTTP/1.1" 404 3327
+[2020-09-17 08:56:37] WARNING [django.request.log_response:224] Not Found: /ia/allcat/allcategory
+[2020-09-17 08:56:37] WARNING [django.server.log_message:157] "GET /ia/allcat/allcategory HTTP/1.1" 404 3318
+[2020-09-17 08:56:49] WARNING [django.request.log_response:224] Not Found: /ia/allcat/addcategory
+[2020-09-17 08:56:49] WARNING [django.server.log_message:157] "GET /ia/allcat/addcategory HTTP/1.1" 404 3318
+[2020-09-17 08:59:29] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\urls.py changed, reloading.
+[2020-09-17 08:59:30] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 08:59:39] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 08:59:41] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-17 08:59:41] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-17 09:00:08] INFO [django.server.log_message:157] "GET /ia/allcategory HTTP/1.1" 301 0
+[2020-09-17 09:00:08] INFO [django.server.log_message:157] "GET /ia/allcategory/ HTTP/1.1" 200 15504
+[2020-09-17 09:00:08] INFO [django.server.log_message:157] "GET /static/css/bootstrap.css HTTP/1.1" 200 141622
+[2020-09-17 09:00:08] INFO [django.server.log_message:157] "GET /static/js/move-top.js HTTP/1.1" 200 1330
+[2020-09-17 09:00:08] INFO [django.server.log_message:157] "GET /static/js/jquery-1.11.1.min.js HTTP/1.1" 200 95786
+[2020-09-17 09:00:08] INFO [django.server.log_message:157] "GET /static/css/font-awesome.css HTTP/1.1" 200 35128
+[2020-09-17 09:00:08] INFO [django.server.log_message:157] "GET /static/css/style.css HTTP/1.1" 200 61673
+[2020-09-17 09:00:08] INFO [django.server.log_message:157] "GET /static/js/easing.js HTTP/1.1" 200 4758
+[2020-09-17 09:00:08] INFO [django.server.log_message:157] "GET /static/images/b1.jpg HTTP/1.1" 200 209013
+[2020-09-17 09:00:08] INFO [django.server.log_message:157] "GET /static/images/b3.jpg HTTP/1.1" 200 165281
+[2020-09-17 09:00:08] INFO [django.server.log_message:157] "GET /static/css/skdslider.css HTTP/1.1" 200 5616
+[2020-09-17 09:00:08] INFO [django.server.log_message:157] "GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 71896
+[2020-09-17 09:00:08] INFO [django.server.log_message:157] "GET /static/js/skdslider.min.js HTTP/1.1" 200 5200
+[2020-09-17 09:00:08] INFO [django.server.log_message:157] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35951
+[2020-09-17 09:00:08] INFO [django.server.log_message:157] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[2020-09-17 09:00:21] INFO [django.server.log_message:157] "GET /static/images/arrow.png HTTP/1.1" 200 3302
+[2020-09-17 09:00:29] WARNING [django.request.log_response:224] Not Found: /ia/allcategory/addcategory
+[2020-09-17 09:00:29] WARNING [django.server.log_message:157] "GET /ia/allcategory/addcategory HTTP/1.1" 404 3359
+[2020-09-17 09:02:29] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 09:02:30] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 09:02:42] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-17 09:02:42] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-17 09:02:52] INFO [django.server.log_message:157] "GET /ia/allcategory/ HTTP/1.1" 200 15504
+[2020-09-17 09:02:58] WARNING [django.request.log_response:224] Not Found: /ia/allcategory/addcategory
+[2020-09-17 09:02:58] WARNING [django.server.log_message:157] "GET /ia/allcategory/addcategory HTTP/1.1" 404 3359
+[2020-09-17 09:06:05] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\urls.py changed, reloading.
+[2020-09-17 09:06:06] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 09:10:14] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 09:10:35] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\urls.py changed, reloading.
+[2020-09-17 09:10:36] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 09:10:39] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-17 09:10:39] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-17 09:10:44] WARNING [django.request.log_response:224] Not Found: /ia/allcategory/addcategory
+[2020-09-17 09:10:44] WARNING [django.server.log_message:157] "GET /ia/allcategory/addcategory HTTP/1.1" 404 3359
+[2020-09-17 09:10:50] INFO [django.server.log_message:157] "GET /ia/allcategory/ HTTP/1.1" 200 15504
+[2020-09-17 09:10:54] WARNING [django.request.log_response:224] Not Found: /ia/allcategory/addcategory
+[2020-09-17 09:10:54] WARNING [django.server.log_message:157] "GET /ia/allcategory/addcategory HTTP/1.1" 404 3359
+[2020-09-17 09:12:09] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\urls.py changed, reloading.
+[2020-09-17 09:12:10] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 09:12:41] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 09:12:42] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 09:12:53] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 09:12:54] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 09:12:59] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 09:13:00] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 09:13:29] WARNING [django.request.log_response:224] Not Found: /ia/allcategory/addcategory
+[2020-09-17 09:13:29] WARNING [django.server.log_message:157] "GET /ia/allcategory/addcategory HTTP/1.1" 404 3359
+[2020-09-17 09:13:37] INFO [django.server.log_message:157] "GET /ia/allcategory/ HTTP/1.1" 200 15504
+[2020-09-17 09:13:42] WARNING [django.request.log_response:224] Not Found: /ia/allcategory/allcategory
+[2020-09-17 09:13:42] WARNING [django.server.log_message:157] "GET /ia/allcategory/allcategory HTTP/1.1" 404 3359
+[2020-09-17 09:21:12] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\urls.py changed, reloading.
+[2020-09-17 09:21:13] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 09:28:24] INFO [django.server.log_message:157] "GET /ia/allproduct HTTP/1.1" 301 0
+[2020-09-17 09:28:24] INFO [django.server.log_message:157] "GET /ia/allproduct/ HTTP/1.1" 200 15747
+[2020-09-17 09:29:05] WARNING [django.request.log_response:224] Not Found: /ia/allproduct/addproduct
+[2020-09-17 09:29:05] WARNING [django.server.log_message:157] "GET /ia/allproduct/addproduct HTTP/1.1" 404 3353
+[2020-09-17 09:29:21] WARNING [django.request.log_response:224] Not Found: /ia/allproduct/addproduct
+[2020-09-17 09:29:21] WARNING [django.server.log_message:157] "GET /ia/allproduct/addproduct HTTP/1.1" 404 3353
+[2020-09-17 09:31:38] INFO [django.server.log_message:157] "GET /ia/allproduct/ HTTP/1.1" 200 15747
+[2020-09-17 09:31:46] WARNING [django.request.log_response:224] Not Found: /ia/allproduct/allproduct
+[2020-09-17 09:31:46] WARNING [django.server.log_message:157] "GET /ia/allproduct/allproduct HTTP/1.1" 404 3353
+[2020-09-17 09:31:57] WARNING [django.request.log_response:224] Not Found: /ia/home
+[2020-09-17 09:31:57] WARNING [django.server.log_message:157] "GET /ia/home HTTP/1.1" 404 3302
+[2020-09-17 09:32:04] INFO [django.server.log_message:157] "GET /ba/home HTTP/1.1" 301 0
+[2020-09-17 09:32:04] INFO [django.server.log_message:157] "GET /ba/home/ HTTP/1.1" 200 15329
+[2020-09-17 09:32:11] WARNING [django.request.log_response:224] Not Found: /ba/home/allcategory
+[2020-09-17 09:32:11] WARNING [django.server.log_message:157] "GET /ba/home/allcategory HTTP/1.1" 404 2365
+[2020-09-17 09:32:38] INFO [django.server.log_message:157] "GET /ia/allcategory HTTP/1.1" 301 0
+[2020-09-17 09:32:38] INFO [django.server.log_message:157] "GET /ia/allcategory/ HTTP/1.1" 200 15504
+[2020-09-17 09:32:47] INFO [django.server.log_message:157] "GET /static/images/arrow.png HTTP/1.1" 304 0
+[2020-09-17 09:33:02] INFO [django.server.log_message:157] "GET /ia/addcategory HTTP/1.1" 301 0
+[2020-09-17 09:33:02] ERROR [django.request.log_response:224] Internal Server Error: /ia/addcategory/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: basel.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py", line 66, in addcategory
+    return render(request,template_name,context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: basel.html
+[2020-09-17 09:33:02] ERROR [django.server.log_message:157] "GET /ia/addcategory/ HTTP/1.1" 500 128755
+[2020-09-17 09:33:41] INFO [django.server.log_message:157] "GET /ia/addcategory/ HTTP/1.1" 200 15756
+[2020-09-17 09:34:02] INFO [django.server.log_message:157] "POST /ia/addcategory/ HTTP/1.1" 302 0
+[2020-09-17 09:34:03] INFO [django.server.log_message:157] "GET /ia/allcategory/ HTTP/1.1" 200 15549
+[2020-09-17 09:34:28] WARNING [django.request.log_response:224] Not Found: /ia/allcategory/allcategory
+[2020-09-17 09:34:28] WARNING [django.server.log_message:157] "GET /ia/allcategory/allcategory HTTP/1.1" 404 3359
+[2020-09-17 09:34:36] INFO [django.server.log_message:157] "GET /ia/allcategory/ HTTP/1.1" 200 15549
+[2020-09-17 09:35:45] WARNING [django.request.log_response:224] Not Found: /ia/allcategory/addproduct
+[2020-09-17 09:35:45] WARNING [django.server.log_message:157] "GET /ia/allcategory/addproduct HTTP/1.1" 404 3356
+[2020-09-17 09:35:54] INFO [django.server.log_message:157] "GET /ia/addproduct HTTP/1.1" 301 0
+[2020-09-17 09:35:54] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py", line 86, in addproduct
+    return render(request,template_name,context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ineventory_App/addproduct.html
+[2020-09-17 09:35:54] ERROR [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 500 84152
+[2020-09-17 09:37:08] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 09:37:09] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 09:38:40] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 09:38:41] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 09:38:44] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 15609
+[2020-09-17 09:42:37] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py", line 86, in addproduct
+    return render(request, template_name, context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 449, in parse
+    raise self.error(token, e)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 657, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 569, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'crispy'
+[2020-09-17 09:42:37] ERROR [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 500 166807
+[2020-09-17 09:45:37] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py", line 86, in addproduct
+    return render(request, template_name, context)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 449, in parse
+    raise self.error(token, e)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 657, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\template\base.py", line 569, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'crispy'
+[2020-09-17 09:45:37] ERROR [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 500 166883
+[2020-09-17 09:46:20] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 15621
+[2020-09-17 09:46:47] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 15632
+[2020-09-17 09:52:20] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\models.py changed, reloading.
+[2020-09-17 09:52:21] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 09:54:00] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\models.py changed, reloading.
+[2020-09-17 09:54:01] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 09:55:05] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 09:55:07] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-17 09:55:07] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-17 09:55:17] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 15632
+[2020-09-17 09:56:40] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\models.py changed, reloading.
+[2020-09-17 09:56:42] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 09:56:45] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 15632
+[2020-09-17 10:02:17] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\form.py changed, reloading.
+[2020-09-17 10:02:19] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 10:02:38] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\form.py changed, reloading.
+[2020-09-17 10:02:39] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 10:06:30] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\form.py changed, reloading.
+[2020-09-17 10:06:31] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 10:06:58] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\form.py changed, reloading.
+[2020-09-17 10:06:59] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 10:09:42] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\form.py changed, reloading.
+[2020-09-17 10:09:43] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 10:10:55] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 10:16:05] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 10:16:08] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-17 10:16:08] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-17 10:16:09] WARNING [django.request.log_response:224] Not Found: /favicon.ico
+[2020-09-17 10:16:09] WARNING [django.server.log_message:157] "GET /favicon.ico HTTP/1.1" 404 2289
+[2020-09-17 10:16:22] INFO [django.server.log_message:157] "GET /ia/allproduct/ HTTP/1.1" 200 15747
+[2020-09-17 10:16:33] INFO [django.server.log_message:157] "GET /ia/addproduct HTTP/1.1" 301 0
+[2020-09-17 10:16:33] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18425
+[2020-09-17 10:18:07] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-17 10:18:07] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70815
+[2020-09-17 10:22:24] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 10:22:25] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 10:22:33] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 10:22:34] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 10:22:39] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18425
+[2020-09-17 10:23:35] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-17 10:23:35] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70795
+[2020-09-17 10:34:39] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 10:34:40] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 10:39:42] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 10:39:43] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 10:41:19] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 10:41:20] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 10:43:17] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-17 10:43:17] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-17 10:43:28] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-17 10:43:28] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70795
+[2020-09-17 10:43:43] WARNING [django.request.log_response:224] Not Found: /ia/addproduct/addproduct
+[2020-09-17 10:43:43] WARNING [django.server.log_message:157] "GET /ia/addproduct/addproduct HTTP/1.1" 404 3353
+[2020-09-17 10:43:48] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18425
+[2020-09-17 10:44:00] WARNING [django.request.log_response:224] Not Found: /ia/addproduct/household.html
+[2020-09-17 10:44:00] WARNING [django.server.log_message:157] "GET /ia/addproduct/household.html HTTP/1.1" 404 3365
+[2020-09-17 10:58:51] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-17 10:58:51] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-17 10:59:03] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-17 10:59:03] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-17 10:59:37] WARNING [django.request.log_response:224] Not Found: /ea/all
+[2020-09-17 10:59:37] WARNING [django.server.log_message:157] "GET /ea/all HTTP/1.1" 404 2274
+[2020-09-17 13:45:07] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 13:45:14] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-17 13:45:14] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-17 13:45:14] WARNING [django.request.log_response:224] Not Found: /favicon.ico
+[2020-09-17 13:45:14] WARNING [django.server.log_message:157] "GET /favicon.ico HTTP/1.1" 404 2289
+[2020-09-17 13:45:31] WARNING [django.request.log_response:224] Not Found: /favicon.ico
+[2020-09-17 13:45:31] WARNING [django.server.log_message:157] "GET /favicon.ico HTTP/1.1" 404 2289
+[2020-09-17 13:46:42] INFO [django.server.log_message:157] "GET /ia/allcategory/ HTTP/1.1" 200 15549
+[2020-09-17 13:46:56] INFO [django.server.log_message:157] "GET /ia/addcategory HTTP/1.1" 301 0
+[2020-09-17 13:46:56] INFO [django.server.log_message:157] "GET /ia/addcategory/ HTTP/1.1" 200 15771
+[2020-09-17 13:47:15] INFO [django.server.log_message:157] "POST /ia/addcategory/ HTTP/1.1" 302 0
+[2020-09-17 13:47:15] INFO [django.server.log_message:157] "GET /ia/allcategory/ HTTP/1.1" 200 15590
+[2020-09-17 13:48:10] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18460
+[2020-09-17 13:52:15] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\urls.py changed, reloading.
+[2020-09-17 13:52:17] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 14:03:26] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 14:03:30] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-17 14:03:30] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-17 14:03:42] INFO [django.server.log_message:157] "GET /ia/allvendor HTTP/1.1" 301 0
+[2020-09-17 14:03:42] INFO [django.server.log_message:157] "GET /ia/allvendor/ HTTP/1.1" 200 15763
+[2020-09-17 14:09:01] INFO [django.server.log_message:157] "GET /ia/allvendor/ HTTP/1.1" 200 15800
+[2020-09-17 14:09:05] WARNING [django.request.log_response:224] Not Found: /ia/allvendor/{% url 'allcategory' %)
+[2020-09-17 14:09:05] WARNING [django.server.log_message:157] "GET /ia/allvendor/%7B%%20url%20'allcategory'%20%) HTTP/1.1" 404 4187
+[2020-09-17 14:09:43] INFO [django.server.log_message:157] "GET /ia/addvendor HTTP/1.1" 301 0
+[2020-09-17 14:09:43] INFO [django.server.log_message:157] "GET /ia/addvendor/ HTTP/1.1" 200 18513
+[2020-09-17 14:09:58] INFO [django.server.log_message:157] "GET /ia/allproduct/ HTTP/1.1" 200 15800
+[2020-09-17 14:10:07] WARNING [django.request.log_response:224] Not Found: /ia/allproduct/{% url 'allcategory' %)
+[2020-09-17 14:10:07] WARNING [django.server.log_message:157] "GET /ia/allproduct/%7B%%20url%20'allcategory'%20%) HTTP/1.1" 404 4190
+[2020-09-17 14:10:17] INFO [django.server.log_message:157] "GET /ia/addcategory/ HTTP/1.1" 200 15824
+[2020-09-17 14:10:31] WARNING [django.request.log_response:224] Not Found: /ia/addcategory/{% url 'allcategory' %)
+[2020-09-17 14:10:31] WARNING [django.server.log_message:157] "GET /ia/addcategory/%7B%%20url%20'allcategory'%20%) HTTP/1.1" 404 4193
+[2020-09-17 14:11:14] WARNING [django.request.log_response:224] Not Found: /ia/addcategory/{% url 'allcategory' %)
+[2020-09-17 14:11:14] WARNING [django.server.log_message:157] "GET /ia/addcategory/%7B%%20url%20'allcategory'%20%) HTTP/1.1" 404 4193
+[2020-09-17 14:11:19] WARNING [django.request.log_response:224] Not Found: /ia/addcategory/{% url 'allcategory' %)
+[2020-09-17 14:11:19] WARNING [django.server.log_message:157] "GET /ia/addcategory/%7B%%20url%20'allcategory'%20%) HTTP/1.1" 404 4193
+[2020-09-17 14:13:26] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\urls.py changed, reloading.
+[2020-09-17 14:13:27] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 14:13:58] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\urls.py changed, reloading.
+[2020-09-17 14:14:00] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 14:14:06] WARNING [django.request.log_response:224] Not Found: /ia/addcategory/{% url 'allcategory' %)
+[2020-09-17 14:14:06] WARNING [django.server.log_message:157] "GET /ia/addcategory/%7B%%20url%20'allcategory'%20%) HTTP/1.1" 404 4193
+[2020-09-17 14:14:22] INFO [django.server.log_message:157] "GET /ia/allvendor/ HTTP/1.1" 200 16331
+[2020-09-17 14:14:46] INFO [django.server.log_message:157] "GET /ia/addvendor/ HTTP/1.1" 200 16371
+[2020-09-17 14:15:11] INFO [django.server.log_message:157] "POST /ia/addvendor/ HTTP/1.1" 302 0
+[2020-09-17 14:15:11] INFO [django.server.log_message:157] "GET /ia/allvendor/ HTTP/1.1" 200 16649
+[2020-09-17 14:15:18] INFO [django.server.log_message:157] "GET /ia/updatevendor/3/ HTTP/1.1" 200 16405
+[2020-09-17 14:15:27] INFO [django.server.log_message:157] "POST /ia/updatevendor/3/ HTTP/1.1" 302 0
+[2020-09-17 14:15:27] INFO [django.server.log_message:157] "GET /ia/allvendor/ HTTP/1.1" 200 16649
+[2020-09-17 14:15:38] INFO [django.server.log_message:157] "GET /ia/deletevendor/3/ HTTP/1.1" 200 15807
+[2020-09-17 14:15:56] INFO [django.server.log_message:157] "GET /ia/allvendor/ HTTP/1.1" 200 16649
+[2020-09-17 14:16:46] INFO [django.server.log_message:157] "GET /ia/deletevendor/3/ HTTP/1.1" 200 15817
+[2020-09-17 14:17:12] INFO [django.server.log_message:157] "GET /ia/deletevendor/3/ HTTP/1.1" 200 15820
+[2020-09-17 14:17:28] INFO [django.server.log_message:157] "GET /ia/deletevendor/3/ HTTP/1.1" 200 15816
+[2020-09-17 14:18:39] INFO [django.server.log_message:157] "GET /ia/deletevendor/3/ HTTP/1.1" 200 15812
+[2020-09-17 14:18:59] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-17 14:19:33] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-17 14:19:33] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70800
+[2020-09-17 14:29:52] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 14:29:53] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 14:31:21] INFO [django.server.log_message:157] "GET /ia/allvendor/ HTTP/1.1" 200 16649
+[2020-09-17 14:32:11] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-17 15:27:49] WARNING [django.server.log_message:157] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1689
+[2020-09-17 16:08:57] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 16:08:58] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 16:10:44] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 16:10:46] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 16:14:44] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 16:14:45] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 16:15:33] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-17 16:15:33] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70800
+[2020-09-17 16:28:09] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 16:28:10] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 20:11:53] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 20:12:08] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-17 20:12:08] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-17 20:12:08] WARNING [django.request.log_response:224] Not Found: /favicon.ico
+[2020-09-17 20:12:08] WARNING [django.server.log_message:157] "GET /favicon.ico HTTP/1.1" 404 2289
+[2020-09-17 20:12:22] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-17 20:15:49] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-17 20:15:49] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70507
+[2020-09-17 20:29:05] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 20:29:06] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 20:29:10] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 20:29:23] INFO [django.server.log_message:157] "GET /ia/addvendor/ HTTP/1.1" 200 16371
+[2020-09-17 20:29:33] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-17 20:30:13] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-17 20:30:13] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70503
+[2020-09-17 20:33:37] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 20:33:39] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 20:33:44] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 20:33:47] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-17 20:33:47] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-17 20:33:58] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-17 20:34:30] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-17 20:34:30] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70506
+[2020-09-17 20:35:10] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 20:35:12] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 20:40:36] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 20:40:37] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 20:44:50] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 20:44:52] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 20:45:33] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 20:45:36] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-17 20:45:36] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-17 20:45:45] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-17 20:46:18] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-17 20:46:18] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70507
+[2020-09-17 20:49:05] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 20:49:06] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 20:49:23] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 20:49:25] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 20:50:34] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 20:50:35] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 20:51:19] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 20:51:20] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 20:51:27] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 20:51:28] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 20:51:48] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-17 20:51:48] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-17 20:51:55] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-17 20:51:55] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70507
+[2020-09-17 20:52:01] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-17 20:52:31] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-17 20:52:31] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70504
+[2020-09-17 21:34:04] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 21:34:06] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 21:34:41] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 21:34:43] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 21:34:52] WARNING [django.request.log_response:224] Not Found: /ia/list/
+[2020-09-17 21:34:52] WARNING [django.server.log_message:157] "GET /ia/list/ HTTP/1.1" 404 4061
+[2020-09-17 21:34:57] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-17 21:34:58] WARNING [django.request.log_response:224] Not Found: /favicon.ico
+[2020-09-17 21:34:58] WARNING [django.server.log_message:157] "GET /favicon.ico HTTP/1.1" 404 2289
+[2020-09-17 21:35:35] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-17 21:35:35] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70488
+[2020-09-17 21:39:57] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 21:39:59] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 21:47:42] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 21:47:44] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 21:49:34] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 21:49:36] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-17 21:49:36] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-17 21:49:37] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-17 21:49:39] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-17 21:49:48] INFO [django.server.log_message:157] "GET /ia/allproduct/ HTTP/1.1" 200 15793
+[2020-09-17 21:50:07] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-17 21:50:38] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-17 21:50:38] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70496
+[2020-09-18 07:49:09] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 08:23:05] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\billing_App\migrations\0001_initial.py changed, reloading.
+[2020-09-18 08:23:06] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 08:33:26] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\user_App\form.py changed, reloading.
+[2020-09-18 08:33:28] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 08:34:28] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\Billing_Market\settings.py changed, reloading.
+[2020-09-18 08:34:29] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 08:37:26] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\Billing_Market\settings.py changed, reloading.
+[2020-09-18 08:37:27] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 08:38:01] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\Billing_Market\settings.py changed, reloading.
+[2020-09-18 08:38:02] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 08:44:21] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\user_App\models.py changed, reloading.
+[2020-09-18 08:44:22] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 08:53:53] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\user_App\models.py changed, reloading.
+[2020-09-18 08:53:54] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 09:16:56] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\user_App\form.py changed, reloading.
+[2020-09-18 09:16:57] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 09:17:35] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\user_App\models.py changed, reloading.
+[2020-09-18 09:17:36] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 09:25:45] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\Billing_Market\settings.py changed, reloading.
+[2020-09-18 09:25:46] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 09:35:52] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\user_App\models.py changed, reloading.
+[2020-09-18 09:35:53] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 09:36:00] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\Billing_Market\settings.py changed, reloading.
+[2020-09-18 09:36:02] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 09:39:13] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\Billing_Market\settings.py changed, reloading.
+[2020-09-18 09:39:14] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 09:40:36] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 09:40:48] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-18 09:40:48] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-18 09:40:48] WARNING [django.request.log_response:224] Not Found: /favicon.ico
+[2020-09-18 09:40:48] WARNING [django.server.log_message:157] "GET /favicon.ico HTTP/1.1" 404 2289
+[2020-09-18 09:40:57] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-18 09:40:58] INFO [django.server.log_message:157] "GET /static/css/style.css HTTP/1.1" 304 0
+[2020-09-18 09:41:02] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-18 09:41:36] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-18 09:41:36] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70496
+[2020-09-18 09:45:01] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-18 09:45:02] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 09:49:33] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\Billing_Market\settings.py changed, reloading.
+[2020-09-18 09:49:34] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 09:52:49] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\user_App\models.py changed, reloading.
+[2020-09-18 09:52:51] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 09:55:32] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\Billing_Market\settings.py changed, reloading.
+[2020-09-18 09:55:33] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 09:55:57] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\Billing_Market\settings.py changed, reloading.
+[2020-09-18 09:55:58] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 10:01:20] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\user_App\admin.py changed, reloading.
+[2020-09-18 10:01:21] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 10:10:18] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\user_App\form.py changed, reloading.
+[2020-09-18 10:10:20] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 10:11:11] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\Billing_Market\settings.py changed, reloading.
+[2020-09-18 10:11:12] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 10:11:44] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\user_App\models.py changed, reloading.
+[2020-09-18 10:11:45] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 10:12:36] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\user_App\form.py changed, reloading.
+[2020-09-18 10:12:38] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 10:13:31] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\user_App\migrations\0001_initial.py changed, reloading.
+[2020-09-18 10:13:32] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 10:14:22] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 10:14:25] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-18 10:14:25] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-18 10:14:33] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-18 10:14:33] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70500
+[2020-09-18 10:14:41] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-18 10:15:15] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-18 10:15:15] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70494
+[2020-09-18 10:15:56] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-18 10:15:56] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70494
+[2020-09-18 10:16:00] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-18 10:16:00] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70494
+[2020-09-18 11:20:35] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-18 11:20:36] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 11:20:40] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-18 11:20:40] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70494
+[2020-09-18 11:20:47] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-18 11:21:15] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-18 11:21:15] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70491
+[2020-09-18 11:22:57] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 11:23:00] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-18 11:23:00] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-18 11:23:14] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-18 11:23:19] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-18 11:23:40] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view inventory_App.views.addproduct didn't return an HttpResponse object. It returned None instead.
+[2020-09-18 11:23:40] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 70502
+[2020-09-18 11:50:51] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-18 11:50:52] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 11:50:59] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 11:51:00] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-18 11:51:00] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-18 11:51:13] INFO [django.server.log_message:157] "GET /ia/addvendor/ HTTP/1.1" 200 16371
+[2020-09-18 11:51:22] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-18 11:51:42] ERROR [django.request.log_response:224] Internal Server Error: /ia/addproduct/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+[2020-09-18 11:51:42] ERROR [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 500 69073
+[2020-09-18 11:53:19] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 11:53:26] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-18 11:53:49] INFO [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 200 10
+[2020-09-18 11:57:40] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-18 11:57:45] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18540
+[2020-09-18 11:58:14] INFO [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 302 0
+[2020-09-18 11:58:15] INFO [django.server.log_message:157] "GET /ia/allproduct/ HTTP/1.1" 200 16179
+[2020-09-18 12:01:06] INFO [django.server.log_message:157] "GET /ia/updateproduct/1/ HTTP/1.1" 200 17115
+[2020-09-18 12:01:16] INFO [django.server.log_message:157] "POST /ia/updateproduct/1/ HTTP/1.1" 302 0
+[2020-09-18 12:01:16] INFO [django.server.log_message:157] "GET /ia/allproduct/ HTTP/1.1" 200 16180
+[2020-09-18 12:01:21] INFO [django.server.log_message:157] "GET /ia/deleteproduct/1/ HTTP/1.1" 200 15812
+[2020-09-18 12:01:27] INFO [django.server.log_message:157] "GET /ia/allproduct/ HTTP/1.1" 200 16180
+[2020-09-18 13:38:16] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-18 13:38:17] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 13:39:06] INFO [django.server.log_message:157] "GET /ia/allcategory/ HTTP/1.1" 200 15636
+[2020-09-18 13:39:18] INFO [django.server.log_message:157] "GET /ia/addcategory/ HTTP/1.1" 200 15817
+[2020-09-18 13:39:31] INFO [django.server.log_message:157] "POST /ia/addcategory/ HTTP/1.1" 302 0
+[2020-09-18 13:39:31] INFO [django.server.log_message:157] "GET /ia/allcategory/ HTTP/1.1" 200 15679
+[2020-09-18 13:39:42] INFO [django.server.log_message:157] "GET /ia/allproduct/ HTTP/1.1" 200 16180
+[2020-09-18 13:39:51] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18577
+[2020-09-18 13:42:58] INFO [django.server.log_message:157] "POST /ia/addproduct/ HTTP/1.1" 302 0
+[2020-09-18 13:42:58] INFO [django.server.log_message:157] "GET /ia/allproduct/ HTTP/1.1" 200 16592
+[2020-09-18 13:43:10] INFO [django.server.log_message:157] "GET /ia/allvendor/ HTTP/1.1" 200 16649
+[2020-09-18 13:43:14] INFO [django.server.log_message:157] "GET /ia/addvendor/ HTTP/1.1" 200 16371
+[2020-09-18 13:44:14] INFO [django.server.log_message:157] "POST /ia/addvendor/ HTTP/1.1" 302 0
+[2020-09-18 13:44:14] INFO [django.server.log_message:157] "GET /ia/allvendor/ HTTP/1.1" 200 16965
+[2020-09-18 19:58:44] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 19:58:52] WARNING [django.request.log_response:224] Not Found: /
+[2020-09-18 19:58:52] WARNING [django.server.log_message:157] "GET / HTTP/1.1" 404 2238
+[2020-09-18 19:58:52] WARNING [django.request.log_response:224] Not Found: /favicon.ico
+[2020-09-18 19:58:52] WARNING [django.server.log_message:157] "GET /favicon.ico HTTP/1.1" 404 2289
+[2020-09-18 19:59:03] INFO [django.server.log_message:157] "GET /ia/addproduct/ HTTP/1.1" 200 18608
+[2020-09-18 19:59:09] INFO [django.server.log_message:157] "GET /ia/allproduct/ HTTP/1.1" 200 16592
+[2020-09-18 19:59:21] ERROR [django.request.log_response:224] Internal Server Error: /ia/updateproduct/2/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py", line 140, in updateproduct
+    form = ProductForm(instance = product)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\forms\models.py", line 294, in __init__
+    object_data = model_to_dict(instance, opts.fields, opts.exclude)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\forms\models.py", line 85, in model_to_dict
+    opts = instance._meta
+AttributeError: 'int' object has no attribute '_meta'
+[2020-09-18 19:59:21] ERROR [django.server.log_message:157] "GET /ia/updateproduct/2/ HTTP/1.1" 500 78795
+[2020-09-18 20:00:05] INFO [django.server.log_message:157] "GET /ia/deleteproduct/2/ HTTP/1.1" 200 15822
+[2020-09-18 20:01:26] INFO [django.server.log_message:157] "GET /ia/deleteproduct/2/ HTTP/1.1" 200 15823
+[2020-09-18 20:01:31] INFO [django.server.log_message:157] "GET /ia/allproduct/ HTTP/1.1" 200 16593
+[2020-09-18 20:02:21] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-18 20:02:22] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader
+[2020-09-18 20:02:27] INFO [django.server.log_message:157] "GET /ia/allproduct/ HTTP/1.1" 200 16593
+[2020-09-18 20:02:32] ERROR [django.request.log_response:224] Internal Server Error: /ia/updateproduct/2/
+Traceback (most recent call last):
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py", line 140, in updateproduct
+    form = ProductForm(instance = product)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\forms\models.py", line 294, in __init__
+    object_data = model_to_dict(instance, opts.fields, opts.exclude)
+  File "C:\Users\Vik's\PycharmProjects\Billing_Project\venv\lib\site-packages\django\forms\models.py", line 85, in model_to_dict
+    opts = instance._meta
+AttributeError: 'int' object has no attribute '_meta'
+[2020-09-18 20:02:32] ERROR [django.server.log_message:157] "GET /ia/updateproduct/2/ HTTP/1.1" 500 78783
+[2020-09-18 20:08:20] INFO [django.utils.autoreload.trigger_reload:236] C:\Users\Vik's\PycharmProjects\Billing_Project\Billing_Market\inventory_App\views.py changed, reloading.
+[2020-09-18 20:08:21] INFO [django.utils.autoreload.run_with_reloader:612] Watching for file changes with StatReloader

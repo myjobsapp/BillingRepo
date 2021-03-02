@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+    <title>Delete Product</title>
+{% endblock %}
+
+{% block content %}
+    <h3>You Really want to delete this product record of {{product.product_name}}?????</h3><br>
+    <a href="{% url 'allproduct' %}">
+        <button class="btn btn-success">Cancel</button></a><br>
+
+    <form method="post">
+        {% csrf_token %}
+
+        <a href="{% url 'deleteproduct' product.id %}">
+            <input type="submit"  value="Delete" class="btn btn-danger"></a>
+    </form>
+{% endblock %}

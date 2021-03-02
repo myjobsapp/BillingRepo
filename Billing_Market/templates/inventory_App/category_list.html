@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>Category_List</title>
+{% endblock %}
+
+{% block content %}
+    <table class="table table-striped" style="width:500px">
+        <tr>
+            <th>ID</th>
+            <th>Category Type</th>
+        </tr>
+        {% for c in category %}
+        <tr>
+            <td>{{c.id}}</td>
+            <td><a href="/ia/detail/{{c.id}}">{{c.category_type}}</a></td>
+            <td>
+                <a href="/ia/update/{{c.id}}" class="btn btn-primary">Update</a>
+            </td>
+            <td>
+                <a href="/ia/delete/{{c.id}}" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

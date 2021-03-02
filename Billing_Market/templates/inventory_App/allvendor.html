@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+    <title>All Vendors</title>
+{% endblock %}
+
+{% block content %}
+
+
+<div class="container" align="center">
+<h4>All Vendors Information:</h4>
+<table border="2" class="table table-striped" style="width: 80%">
+<tr>
+    <th>Vendor Name</th>
+    <th>Company Name</th>
+    <th>Vendor Contact</th>
+    <th>Vendor Email</th>
+    <th>Vendor Address</th>
+
+    <th>Update</th>
+    <th>Delete</th>
+</tr>
+
+{% for v in vendor %}
+    <tr>
+    <td>{{v.vendor_name}}</td>
+    <td>{{v.company_name}}</td>
+    <td>{{v.vendor_contact}}</td>
+    <td>{{v.vendor_email}}</td>
+    <td>{{v.vendor_address}}</td>
+
+
+    <td><a href="{% url 'updatevendor' v.id %}"> <button class="btn btn-primary">Update</button></a></td>
+    <td><a href="{% url 'deletevendor' v.id %}"> <button class="btn btn-danger">Delete</button></a></td>
+    </tr>
+{% endfor %}
+
+</table>
+</div>
+
+{% endblock %}

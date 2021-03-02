@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+    <title>All Categories</title>
+{% endblock %}
+
+{% block content %}
+
+<div class="container" align="center">
+<h4>All Categories:</h4>
+<table border="2" class="table table-striped" style="width: 80%">
+<tr>
+    <th>Category Type</th>
+</tr>
+    {% for c in category %}
+    <tr>
+    <td>{{c.category_type}}</td>
+    </tr>
+{% endfor %}
+
+</table>
+</div>
+
+{% endblock %}

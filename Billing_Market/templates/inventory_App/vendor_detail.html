@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+    <title>Vendor_Detail</title>
+{% endblock %}
+
+{% block content %}
+    <table class="table table-striped">
+        <tr>
+            <th>ID</th>
+            <th>Vendor_Name</th>
+            <th>Company_Name</th>
+            <th>Vendor_Contact</th>
+            <th>Vendor_Email</th>
+            <th>Vendor_Address</th>
+        </tr>
+        <tr>
+            <td>{{vendor.id}}</td>
+            <td>{{vendor.vendor_name}}</td>
+            <td>{{vendor.company_name}}</td>
+            <td>{{vendor.vendor_contact}}</td>
+            <td>{{vendor.vendor_email}}</td>
+            <td>{{vendor.vendor_address}}</td>
+        </tr>
+    </table>
+{% endblock %}

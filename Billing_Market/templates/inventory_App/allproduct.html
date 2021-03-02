@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+    <title>All Products</title>
+{% endblock %}
+
+{% block content %}
+
+
+<div class="container" align="center">
+<h4>All Products Information:</h4>
+<table border="2" class="table table-striped" style="width: 100%">
+<tr>
+    <th>Product Name</th>
+    <th>Product Description</th>
+    <th>Product Expiry Date</th>
+    <th>Product Weight</th>
+    <th>Product Qty</th>
+    <th>Product Price</th>
+    <th>Vendor</th>
+    <th>Product Category</th>
+
+    <th>Update</th>
+    <th>Delete</th>
+</tr>
+
+{% for p in product %}
+    <tr>
+    <td>{{p.product_name}}</td>
+    <td>{{p.product_description}}</td>
+    <td>{{p.product_expiry_date}}</td>
+    <td>{{p.product_weight}}</td>
+    <td>{{p.product_qty}}</td>
+        <td>{{p.product_price}}</td>
+        <td>{{p.vendor}}</td>
+        <td>{{p.product_category}}</td>
+
+
+    <td><a href="{% url 'updateproduct' p.id %}"> <button class="btn btn-primary">Update</button></a></td>
+    <td><a href="{% url 'deleteproduct' p.id %}"> <button class="btn btn-danger">Delete</button></a></td>
+    </tr>
+{% endfor %}
+
+</table>
+</div>
+
+{% endblock %}
